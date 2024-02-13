@@ -1,2 +1,2 @@
-# NewQuizGameTeachableMachine
+# TeachableMachine
  
