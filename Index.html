@@ -1,5 +1,6 @@
 <html>
 
+
 <head>
   <meta charset="UTF-8">
   <title>Webcam Image Classification using a pre-trained customized model and p5.js</title>
@@ -37,16 +38,27 @@
 
 <body>
   <h1>Quiz Game (A Teachable Machine Website)</h1>
-  <p>Welcome to the quiz game. Hold up your hand in Open Palm to answer Yes. Hold up your hand in a Closed Fist to answer No. You have 30 seconds to answer as many questions as possible.</p>
+  <p>Welcome to the quiz game. Hold up your hand in Open Palm to answer Yes. Hold up your hand in a Closed Fist to answer No.</p>
+  <p>You have 30 seconds to answer as many questions as possible.</p>
 
   <!-- Image and text container -->
   <div id="imageContainer">
     <img src="{{ url_for('static', filename='Angle.png') }}" alt="Angle" style="width: 300px; height: 300px;">
     <p id="quizText">Position camera like this for best results.</p>
     <p id="quizText2">Lower your hand after you are finished answering </p>
+    <p id="aboutText"><strong>About us</strong></p>
+    <p id="projectDetails">The creator of this project's goal was to create a</p>
+    <p id="projectDetails2"> fun quiz game that would also test people's reactions.
+    <p id="projectDetails3"> The highscore function is there to allow others to compete
+    <p id="projectDetails4"> with each other to add stakes. - Dylan Grunig
+    </p>
+  </div>
+
   </div>
 
   <script src="{{ url_for('static', filename='Sketch.js') }}"></script>
+
+
 </body>
 
 </html>
